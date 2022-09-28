@@ -1,1 +1,41 @@
-/* ADD CSS */
+body{
+    background-color: rgb(46, 45, 45);
+}
+.form-control{
+    background-color: #404040!important;
+}
+.form-control:hover{
+    background-color: #5a5a5a!important;
+}
+i{
+    color: rgb(189, 189, 189);
+}
+.list-group-item{
+    background-color: #404040!important;
+    color: rgb(189, 189, 189)!important;
+}
+.list-group{
+    max-height: 300px;
+    margin-bottom: 10px;
+    overflow:scroll;
+    -webkit-overflow-scrolling: touch;
+    overflow-x: hidden;
+}
+.list-group::-webkit-scrollbar-track {
+    border-radius: 0 4px 4px 0;
+    padding: 2px 0;
+    background-color: #404040;
+  }
+  
+  .list-group::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  .list-group::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+    background-color: #737272;
+  }
+  .list-group-item:hover{
+background-color: #5a5a5a!important;
+  }
