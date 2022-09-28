@@ -1,5 +1,4 @@
-/* import React from 'react';
-import ReactDOM from 'react-dom/client';
+/* 
 import 'bootstrap/dist/css/bootstrap.min.css'; // CSS
 import 'bootstrap/dist/js/bootstrap.bundle'; // JS
 import '@fortawesome/fontawesome-free/css/all.min.css' // FONTAWESOME
@@ -13,8 +12,8 @@ const root = ReactDOM.createRoot(document.querySelector('#root'));
 root.render(<Main {...data} />); // Spread operator */
 
 //import react into the bundle
-import React from "react";
-import ReactDOM from "react-dom";
+import React from 'react';
+import ReactDOM from 'react-dom/client';
 import 'bootstrap/dist/css/bootstrap.min.css'; // CSS
 import 'bootstrap/dist/js/bootstrap.bundle'; // JS
 import '@fortawesome/fontawesome-free/css/all.min.css' // FONTAWESOME
@@ -25,4 +24,5 @@ import './App.css';
 import Home from "./Home.jsx";
 
 //render your react application
-ReactDOM.render(<Home />, document.querySelector("#app"));
+const root = ReactDOM.createRoot(document.querySelector('#root'));
+root.render(<Home />);
